@@ -10,31 +10,37 @@
 }
 @font-face {
     font-family: letra2;
-    src: url(/TipoLetra/Creepster-Regular.ttf);
-}
-@font-face {
-    font-family: letra3;
     src: url(/TipoLetra/EmblemaOne-Regular.ttf);
 }
 
 body{
     width: 100%;
-    background-image: url(/Imagenes/gal.jpg);
+    height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+    background: linear-gradient(to top, #426c89 7%, #477eac 17%, #dad4be 68%);
+}
+.fondo{
+    width: 100vw;
+    height: auto;
+}
+.fondito{
+    width: 100vw;
+    box-shadow: -1px 16px 17px #477eac;
+}
+.cont-codigo{
+    width: 100vw;
     overflow: hidden;
 }
-
-.contenedor_codigo{
-    width: 100vw;
-}
-
+/*Barra inicial*/
 .div_barra{
     width: 100vw;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    bottom: 62vw;
 }
 .barra{
     width: 80vw;
@@ -99,14 +105,15 @@ a{
 .ctct{
     width: 10vw;
 }
-
+/* Avatar y texto inicial*/
 .text_avatar{
     width: 100vw;
     height: 40vh;
-    margin-top: 9vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    position: relative;
+    bottom: 50vw;
 }
 .text{
     width: 50vw;
@@ -117,7 +124,7 @@ a{
     font-size: 2vw;
 }
 .text h1{
-    font-family: letra;
+    font-family: letra2;
     font-size: 4vw;
     padding-top: 2vw;
     color: transparent;
@@ -131,16 +138,32 @@ a{
     -webkit-text-stroke: 0.5px rgb(79, 79, 143);
 }
 .avatar{
-    width: 25vw;
-    height: 37vh;
+    width: 17vw;
+    height: 34vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(163deg, #000000 0%, #200096d5 100%);
+    border-radius: 50%;
+    transition: all .3s;
+}
+.shadow:hover {
+    transform: scale(0.17);
+    border-radius: 30px;
+}
+   
+.avatar:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
 }
 .ava{
     width: 18vw;
     height: 36vh;
     border-radius: 50%;
+    cursor: pointer;
+}
+.ava:hover{
+    transform: scale(5.5);
+    transition: 3s;
 }
 .text h1:nth-child(1) { animation-delay: 0.1s; }
 .text h1:nth-child(2) { animation-delay: 0.2s; }
@@ -155,13 +178,67 @@ a{
     -webkit-text-stroke: 1px black;
     text-shadow: 0 -0 10px rgb(0, 0, 0);
 }
-
+/*Sobre Mí*/
+.sobreMi{
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    bottom: 20vw;
+}
+.h1{
+    width: 100vw;
+    height: 7vh;
+}
+.aboutMe{
+    font-family: letra2;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 7px rgb(0, 0, 0);
+}
+.textico{
+    width: 100vw;
+    height: 42vh;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.texto-sobreMi{
+    font-family: letra;
+    font-size: 1.3vw;
+    text-align: center;
+}
+.texto1{
+    width: 55vw;
+    height: 38vh;
+    align-items: center;
+    display: flex;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+}
+.foto1{
+    width: 20vw;
+}
+.foto1 img{
+    width: 20vw;
+    border-radius: 50%;
+    transition: 1s;
+}
+#box:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transition: 0.7s;
+}
+.botones{    
+    width: 5vw;
+    height: 4.5vh;
+    margin-left: 33vw;
+}
 .cont{
     width: 5vw;
     height: 4.5vh;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    gap: 1vw;
 }
 #git{
     width: 2vw;
@@ -174,4 +251,93 @@ a{
     height: 4vh;
     border-radius: 50%;
     background-color: #dad4be;
+}
+
+/*Mis Habilidades*/
+.hab{
+    width: 100vw;
+    height: 170vh;
+    text-align: center;
+}
+.titulo{
+    width: 100vw;
+    height: 7vh;
+}
+.h1-2{
+    font-family: letra2;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+.texto2{
+    width: 100vw;
+    height: 22vh;
+    margin-top: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-hab{
+    font-family: letra;
+    font-size: 1.3vw;
+    text-shadow: 0 0 2px rgb(255, 255, 255);
+}
+.skills{
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 0.5vw;
+}
+.html{
+    width: 5vw;
+    height: 10.5vh;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.html:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transition: 0.7s;
+}
+.css{
+    width: 5vw;
+    height: 10.5vh;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.css:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.699);
+    transition: 0.7s;
+}
+.js{
+    width: 5vw;
+    height: 10.5vh;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.js:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transition: 0.7s;
+}
+.mysql{
+    width: 5vw;
+    height: 15vh;
+    border-radius: 45%;
+    transition: 0.7s;
+}
+.mysql:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.699);
+    transition: 0.7s;
+}
+.java{
+    width: 5vw;
+    height: 10.5vh;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.java:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 4, 255, 0.774);
+    transition: 0.7s;
 }
