@@ -15,7 +15,6 @@
 
 body{
     width: 100%;
-    height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
     background: linear-gradient(200deg, #426c89 7%, #dad4be 27%, #477eac 68%);
@@ -363,4 +362,204 @@ a{
 .java:hover {
     box-shadow: 0px 0px 30px 1px rgba(0, 4, 255, 0.774);
     transition: 0.7s;
+}
+
+/*Linea divisoria*/
+.linea3{
+    width: 100vw;
+    position: relative;
+    top: 9vw;
+    border: 2px solid rgb(55, 55, 252);
+    box-shadow: 0px 0px 30px 7px rgb(74, 77, 92);
+}
+
+/*Portfolio*/
+.portfolio{
+    width: 100vw;
+    height: 58vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.port{
+    margin-top: 17vw;
+    font-family: letra2;
+    font-size: 3vw;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+/*Coffe*/
+.coffe{
+    width: 20vw;
+    height: 48.3vh;
+    margin-top: 2vw;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+}
+.coffe:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.coffe h3{
+    font-family: letra2;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 13px rgb(255, 255, 255);
+    margin-top: 0.4vw;
+}
+.cafe{
+    width: 12vw;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+.coffe p{
+    font-family: letra;
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 17px rgb(255, 255, 255);
+    margin-top: 0.5vw;
+}
+
+/*Ingreso solidario*/
+.ingreso-solidario{
+    width: 20vw;
+    height: 45vh;
+    margin-top: 2vw;
+    background-color: #477eac;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+}
+.ingreso-solidario:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.ingreso-solidario h3{
+    font-family: letra2;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 13px rgb(255, 255, 255);
+    margin-top: 0.4vw;
+}
+.ing-sol{
+    width: 14.5vw;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+.ingreso-solidario p{
+    font-family: letra;
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 17px rgb(255, 255, 255);
+    margin-top: 0.5vw;
+}
+
+/*Gestión de películas*/
+.peliculas{
+    width: 20vw;
+    height: 45vh;
+    margin-top: 2vw;
+    background-color: #477eac;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+}
+.peliculas:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.peliculas h3{
+    font-family: letra2;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 13px rgb(255, 255, 255);
+    margin-top: 0.4vw;
+}
+.pelis{
+    width: 14.5vw;
+    border-radius: 15px;
+    margin-top: 1vw;
+}
+.peliculas p{
+    font-family: letra;
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 17px rgb(255, 255, 255);
+    margin-top: 0.5vw;
+}
+
+/*SpaceX*/
+.SpaceX{
+    width: 20vw;
+    height: 47vh;
+    margin-top: 2vw;
+    background-color: #477eac;
+    text-align: center;
+    border-radius: 30px;
+    transition: 1s;
+}
+.SpaceX:hover {
+    box-shadow: 0px 0px 30px 1px rgba(1, 48, 255, 0.699);
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.SpaceX h3{
+    font-family: letra2;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 13px rgb(255, 255, 255);
+    margin-top: 0.4vw;
+}
+.space{
+    width: 17vw;
+    border-radius: 35px;
+    margin-top: 1vw;
+}
+.SpaceX p{
+    font-family: letra;
+    font-size: 0.9vw;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 17px rgb(255, 255, 255);
+    margin-top: 1vw;
+}
+
+
+/*Contactame*/
+.contacto{
+    width: 100vw;
+    height: 17.2vh;
+    text-align: center;
+    margin-top: 5vw;
+    border-top: 2px solid rgba(1, 48, 255, 0.699);
+    box-shadow: 0px 0px 30px 2px rgb(74, 77, 92);
+}
+.promocion{
+    font-family: letra;
+    font-size: 1.2vw;
+    text-align: center;
+    color: black;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+    padding-top: 1vw;
+}
+.redes{
+    margin-top: 1vw;
+    width: 5vw;
+    display: flex;
+    margin-left: 47.5vw;
+    gap: 1vw;
+}
+.footer{
+    font-family: letra;
+    font-size: 1.1vw;
+    text-align: center;
+    color: black;
+    margin-top: 0.7vw;
+    text-shadow: 0 0 15px rgb(255, 255, 255);
 }
