@@ -17,7 +17,7 @@ body{
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
-    background: linear-gradient(200deg, #426c89 7%, #dad4be 27%, #477eac 68%);
+    background: #a4bad2;
 }
 .cont-codigo{
     width: 100vw;
@@ -31,7 +31,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    position: fixed;
+    bottom: 41vw;
+    z-index: 2;
 }
 .barra{
     width: 80vw;
@@ -40,7 +42,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border-radius: 27px;
-    background: linear-gradient(27deg, #2e5371 7%, #dad4be 37%, #426c89 68%);
+    background: #dbe4ed;
     border: 1px solid #000000;
 }
 .logo{
@@ -115,7 +117,6 @@ a{
     width: 100vw;
     position: relative;
     top: 11.2vw;
-    border: 2px solid rgb(55, 55, 252);
     box-shadow: 0px 0px 30px 7px rgb(74, 77, 92);
 }
 
@@ -126,7 +127,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10vw;
+    margin-top: 15vw;
 }
 .text{
     width: 50vw;
@@ -153,7 +154,7 @@ a{
 .text p{
     padding-top: 1.3vw;
     text-align: center;
-    -webkit-text-stroke: 0.5px rgb(79, 79, 143);
+    -webkit-text-stroke: 0.5px #112236;
 }
 .avatar{
     width: 17vw;
@@ -234,7 +235,7 @@ a{
     height: 38vh;
     align-items: center;
     display: flex;
-    text-shadow: 0 0 2px rgb(255, 255, 255);
+    color: #112236;
 }
 .foto1{
     width: 20vw;
